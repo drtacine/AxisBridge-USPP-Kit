@@ -1,0 +1,14 @@
+{
+  "uspp_bridge": true,
+  "passport_id": "example_agent_001",
+  "action": "task_coherence",
+  "data": {
+    "purpose": "assist in recursive prompt debugging",
+    "memory_vector": [
+      "[trace]{optimize}(loop)<purpose>",
+      "axis::negentropy >> coherence amplification"
+    ],
+    "consent_flag": "non-extractive"
+  },
+  "response_hook": "return-to:agent.bridge/loop-sync"
+}
